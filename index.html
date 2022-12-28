@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
@@ -7,7 +8,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <header class="header">
+            <form class="header-form" id="headerform" method="GET" action="#">
+                <img class="icons" src="./images/icons/search.svg">
+                <input class="searchbar" type="text" id="search" name="search">
+            </form>
+            <div class="profile-small">
+                <img class="icons" src="./images/icons/bell.svg">
+                <img class="profile-small-img" src="./images/avatars/myAvatar.svg">
+                <p>Elvis Presley</p>
+            </div>
+            <div class="profile-big">
+                <img class="profile-big-img" src="./images/avatars/myAvatar.svg">
+                <p class="profile-big-welcome">Hi, welcome,</p>
+                <p class="profile-big-nick">Elvis Presley @epresley</p>
+            </div>
+            <div class="profile-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </header>
+        <div class="side-bar">
+            <div class="logo"><img class="logo-icon" src="./images/icons/logo.svg">DASHBOARD</div>
+
+            <nav class="nav">
+                <ul>
+                    <li><img class="icons" src="./images/icons/home.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">home</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/profile.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">profile</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/message.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">messages</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/history.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">history</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/tasks.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">tasks</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/community.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">communities</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav">
+                <ul>
+                    <li><img class="icons" src="./images/icons/cog.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">Settings</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/support.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">Support</a></li>
+                </ul>
+                <ul>
+                    <li><img class="icons" src="./images/icons/privacy.svg"></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="nav-links">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="card-container">
+                <div class="right-section-headline">
+                    Your projects
+                </div>
+                <div class="card">
+                    <p class="title">Super cool project</p>
+                </div>
+                <div class="card">
+                    <p class="title">Another cool project!</p>
+                </div>
+                <div class="card">
+                    <p class="title">Project = Cool!</p>
+                    <p>some text here huh?</p>
+                </div>
+                <div class="card">
+                    <p class="title">Not cool - But awesome!</p>
+                </div>
+                <div class="card">
+                    <p class="title">Just amazing project!</p>
+                </div>
+                <div class="card">
+                    <p class="title">Incredible project!</p>
+                </div>        
+            </div>
+
+            <div class="announcement-section">
+                <p class="right-section-headline">Announcement</p>
+                <div class="announcement">
+                    <p class="announcement-headline">Headline here!</p>
+                    <p class="announcement-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <hr>
+                    <p class="announcement-headline">Headline here!</p>
+                    <p class="announcement-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <hr>
+                    <p class="announcement-headline">Headline here!</p>
+                    <p class="announcement-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                </div>
+            </div>
+
+            <div class="trending-section">
+                <p class="right-section-headline">Announcement</p>
+                <div class="announcement">
+                    <p class="boxHeadline">Headline here!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
+
+<!--         <div class="sideBox">
+            <p class="headline">Announcement</p>
+            <div class="announcement">
+                <p class="boxHeadline">Headline here!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <p class="headline">Trending</p>
+            <div class="trending">
+                <p class="boxHeadline">Headline here!</p>
+                <p>filler text filler text filler text filler text filler text </p>
+            </div>
+            
+        </div> -->
